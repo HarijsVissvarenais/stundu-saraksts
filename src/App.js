@@ -5,6 +5,7 @@ function App(){
   <Diena nosaukums="tresdiena"/>
   <Diena nosaukums="ceturtdiena"/>
   <Diena nosaukums="piektdiena"/>
+  <Diena nosaukums="sestdiena"/>
   </>)
 }
 export default App;

@@ -2,14 +2,20 @@ import Stundas from "./Stundas";
 
 function Diena(props){
 
+    const stunduSarakstsJSX = props.stundas.map((stunda) => {
+        return <Stundas name={stunda}/>
+
+        
+    })
+
     return (
     <>
         <h3>{props.nosaukums}</h3>
         <ol>
-            <Stundas Stund={props.Stundas[0]}/>
-            <Stundas Stund={props.Stundas[1]}/>
-            <Stundas Stund={props.Stundas[2]}/>
-            <Stundas Stund={props.Stundas[3]}/>
+            {stunduSarakstsJSX}
+            
+            
+            
         </ol>
     </>
     )

@@ -1,7 +1,9 @@
-
-function Stundas(props){
-    return <li><p>{props.Stund}</p></li>;
+function Stundas(props) {
+  const stundas = [];
+  return (
+    <>
+      <li>{props.nosaukums}</li>
+    </>
+  );
 }
-
 export default Stundas;
-
